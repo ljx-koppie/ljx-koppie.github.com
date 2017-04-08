@@ -1,0 +1,35 @@
+
+.mui-bar-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #292929;
+	height: 2rem;
+}
+.mui-bar-header i{
+	width: 0.675rem;
+	height: 0.775rem;
+	background: url('../../assets/image/header.png') no-repeat;
+	background-size: 100%;
+	margin-right: 0.5rem;
+}
+.mui-pull-right{
+	display:flex;
+	align-items: center;
+}
+.mui-pull-right span{
+	color: #fff;
+	font-size: 0.65rem;
+}
+.mui-pull-right .logo{
+	width: 0.55rem;
+	height: 0.675rem;
+	background: url('../../assets/image/fixed.png') no-repeat;
+	background-size: 100%;
+	margin-right: 0.3rem;
+	margin-left: 0.5rem;
+}
+.mui-bar-header h1{
+	color: #fff;
+	font-size: 0.8rem;
+}
